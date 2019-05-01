@@ -1,2 +1,18 @@
 /* css input voor boomopdracht*/
 
+body {
+    color: gray;
+    font-size: 30px;
+    
+}
+
+h1 {
+    color: olive;
+    font-size: 20px;
+
+}
+
+p {
+    color: red;
+    font-style: italic;
+}
