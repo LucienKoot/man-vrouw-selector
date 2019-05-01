@@ -5,7 +5,15 @@
                   manvrouw
              </title>
 		<style>
-
+            /*
+            #checkboxman:checked ~ * .man {
+            */
+            #man:checked ~ .man {
+            background-color: goldenrod;
+            }
+            #vrouw:checked ~ .vrouw {
+            background-color: aquamarine
+            }
 
 		</style>
          </head>
@@ -15,27 +23,23 @@
 
 <h1> Man-Vrouw Selector</h1> <br><br><br><br>
 
-<label class="container">Man
-    <input type="checkbox" checked="checked">
-    <span class="checkmark"></span>
-</label>
-
-<label class="container">Vrouw
-    <input type="checkbox">
-    <span class ="checkmark"></span>
-</label>
+<!--<input type="checkbox" id="checkboxman" /> Mannen-->
 
 
+    <input type="checkbox" id="man"  /> Man
+    <input type="checkbox" id="vrouw" /> Vrouw
+   
+   
 
 <!-- div 4 x met naam -->
 
-<div>
+
     <p class="man">Aarnoud</p>
     <p class="vrouw">Henriet</p>
     <p class="man">Lucien</p> 
-    <p class="vrouw">\Lana</p>
+    <p class="vrouw">Lana</p>
 
-</div>
+
 
 
 
