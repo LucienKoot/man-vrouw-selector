@@ -1,0 +1,20 @@
+/* GRID gedeelte */
+
+
+
+
+
+
+
+
+
+
+
+/*css grid jq manvrouw */
+
+#man:checked ~ .man {
+    background-color: goldenrod;
+    }
+#vrouw:checked ~ .vrouw {
+    background-color: aquamarine
+    }
