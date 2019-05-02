@@ -27,19 +27,35 @@
 
 img {
   border: 5px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+  border-radius: 1px;
+  padding: 6px;
   width: 100px;
 }
 
-#man {
-
+#man, #vrouw {
+  background-color:#daa520;
+  border: 5px solid whitesmoke;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  margin: 4px 2px;
+  cursor: pointer;
+ /* position: relative;*/
+  border-radius: 50%;
 }
+#man:hover, #vrouw:hover {
+  background-color: #555555;
+  color: white;
+}
+
 
 /*css grid jq manvrouw */
 
 #man:checked ~* .man {
-    background-color: goldenrod;
+    background-color: #daa520;
     }
 #vrouw:checked ~* .vrouw {
     background-color: aquamarine
