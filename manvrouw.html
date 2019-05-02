@@ -2,11 +2,19 @@
 <html>
 
 <head>
-    <title>
-        man-vrouw selector in grid upcoming
-    </title>
+        <meta charset="UTF-8">
+    <title> man-vrouw selector in grid upcoming</title>
 
         <link href="manvrouw.css" rel="stylesheet" type="text/css" media="all">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+            
+            $(document).ready(function(){
+            $("#buttonman").click(function(){});
+            $("buttonvrouw").click(function(){})
+            
+            </script>
         
 </head>
 
@@ -14,21 +22,23 @@
 
     <!--checkbox 1 x man  1 x vrouw -->
 
-    <h1> Man-Vrouw Selector</h1> <br><br><br><br>
+    
 
 
-    <input type="checkbox" id="man" /> Man
-    <input type="checkbox" id="vrouw" /> Vrouw 
+     
 
-    <!-- GRID gedeelte hier plaatsen.-->
+    <!-- GRID gedeelte hieronder.-->
 
     <div class="grid-container">
-            <div class="item1">Header</div>
-            <div class="item2">Menu</div>
+            <div class="item1">Man-Vrouw Selector</div>
+            <div class="item2">..keuze..</br></br></br>
+                <input type="button" value="Man" id="man" />  </br>
+                <input type="button" value="Vrouw" id="vrouw" />
+            </div>
             <div class="item3 man">Aarnoud</div>  
             <div class="item4 vrouw">Harriet</div>
-            <div class="item5 man">Lucien</div>
-            <div class="item6 vrouw">Lana</div>
+            <div class="item5 vrouw">Lana</div>
+            <div class="item6 man">Lucien</div>
           </div>
 
 
