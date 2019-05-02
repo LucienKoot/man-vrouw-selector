@@ -14,19 +14,27 @@
     'menu prof1 prof2'
     'menu prof3 prof4';
   grid-gap: 10px;
-  background-color: green;
+  background-color: rgb(160, 140, 26);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: grey;
+  background-color: rgb(118, 153, 147);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
+img {
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
 
+#man {
 
+}
 
 /*css grid jq manvrouw */
 
