@@ -32,7 +32,8 @@ img {
   width: 100px;
 }
 
-#man, #vrouw {
+/*button*/
+#man, #vrouw, #allen {
   background-color:#daa520;
   border: 5px solid whitesmoke;
   color: white;
@@ -46,17 +47,9 @@ img {
  /* position: relative;*/
   border-radius: 50%;
 }
-#man:hover, #vrouw:hover {
+#man:hover, #vrouw:hover, #allen:hover {
   background-color: #555555;
   color: white;
 }
 
 
-/*css grid jq manvrouw */
-
-#man:checked ~* .man {
-    background-color: #daa520;
-    }
-#vrouw:checked ~* .vrouw {
-    background-color: aquamarine
-    }

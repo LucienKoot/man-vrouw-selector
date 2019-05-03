@@ -16,18 +16,13 @@
                 $(".man").show();
              });
 
-
-/* <script>
-$(document).ready(function(){
-  $("p").click(function(){
-    $(this).hide();
-  });
-}); */
-
-
             $("#vrouw").click(function() {
                 $(".man").hide();
                 $(".vrouw").show();
+            });
+
+            $("#allen").click(function() {
+                $(".vrouw, .man").show();
              });
         });
     </script>
@@ -43,6 +38,7 @@ $(document).ready(function(){
         <div class="item2">..keuze..<br><br><br>
             <input type="button" value="Man" id="man" />
             <input type="button" value="Vrouw" id="vrouw" />
+            <br><br> <input type="button" value="Allen" id="allen"/>
         </div>
         <div class="item3 man">
         <img src="img/aarnoud_small.jpg">
